@@ -1,12 +1,26 @@
 .third {
   grid-column: full-start/full-end;
-  background-image: url(/img/right_yz6hn3.png);
-  background-size: contain;
+  background-image: url(/img/right_yz6hn3.png), url(/img/right_yz6hn3.png);
+  background-size: 35rem, 35rem;
+  background-repeat: no-repeat;
+  background-position: top left, right top;
+
+  @media only screen and (max-width: $bp-medium) {
+    background-repeat: repeat-y;
+  }
 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 3rem;
   padding: 8rem;
+
+  @media only screen and (max-width: $bp-small) {
+    padding: 5rem;
+  }
+
+  @media only screen and (max-width: 400px) {
+    padding: 2rem;
+  }
 
   &__box {
     background-color: $color-primary-2;

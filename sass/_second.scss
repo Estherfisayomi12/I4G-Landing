@@ -3,4 +3,8 @@
 
   padding: 10rem 0 5rem 0;
   text-align: center;
+
+  @media only screen and (max-width: $bp-larger) {
+    padding: 5rem o 3rem 0;
+  }
 }
