@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Graphik";
-  src: url(/img/GraphikSemibold.otf);
+  src: url(../img/GraphikSemibold.otf);
 }
 @font-face {
   font-family: "Graphik medium";
-  src: url(/img/GraphikMedium.otf);
+  src: url(../img/GraphikMedium.otf);
 }
 @font-face {
   font-family: "Graphik light";
-  src: url(/img/GraphikRegular.otf);
+  src: url(../img/GraphikRegular.otf);
 }
 *,
 *::before,
@@ -55,8 +55,8 @@ body {
 .break {
   background-color: #e7332b;
   grid-column: full-start/full-end;
-  background-image: url(/img/round.svg), url(/img/mains.png),
-    url(/img/curve2.svg), url(/img/bend1.svg);
+  background-image: url(./img/round.svg), url(./img/mains.png),
+    url(./img/curve2.svg), url(./img/bend1.svg);
   background-repeat: no-repeat;
   background-position: 10% 30%, right bottom, left bottom, top right;
   background-size: 20rem, 15rem, 15rem, 15rem;
@@ -238,7 +238,7 @@ body {
 }
 .questions {
   grid-column: full-start/full-end;
-  background-image: url(/img/section7wire.svg);
+  background-image: url(./img/section7wire.svg);
   background-position: 15% 8%;
   background-repeat: no-repeat;
   background-size: 15rem;
@@ -305,7 +305,7 @@ body {
   display: flex;
   padding: 10rem 6rem 14rem 6rem;
   margin-top: 10rem;
-  background: url(/img/maleface.svg), url(/img/section1wire.svg);
+  background: url(./img/maleface.svg), url(./img/section1wire.svg);
   background-position: 30% 90%, 60% 90%;
   background-size: 5rem, 8rem;
   background-repeat: no-repeat;
@@ -381,8 +381,8 @@ body {
 }
 .structure {
   grid-column: full-start/full-end;
-  background-image: url(/img/Star1.svg), url(/img/section7wire.svg),
-    url(/img/circle.png), url(/img/move.svg), url(/img/circle.png);
+  background-image: url(./img/Star1.svg), url(./img/section7wire.svg),
+    url(./img/circle.png), url(./img/move.svg), url(./img/circle.png);
   background-repeat: no-repeat;
   background-position: 90% 10%, 10% 5%, right bottom, left center, 5% 100%;
   background-size: 15rem, 15rem, 20rem, 10rem;
@@ -431,11 +431,11 @@ body {
   background-position: 90% 90%, 90% 90%;
 }
 .-box1 {
-  background-image: url(/img/hour.png);
+  background-image: url(./img/hour.png);
   background-size: 10rem;
 }
 .-box2 {
-  background-image: url(/img/time.png);
+  background-image: url(./img/time.png);
   background-size: 20rem;
 }
 .no-list {
@@ -561,7 +561,7 @@ body {
 .whyzuri__box .sop__box-item-1,
 .whyzuri .sop-item-1,
 .whyzuri .sop .sop__box-item-1 {
-  background-image: url(/img/curve1.png);
+  background-image: url(./img/curve1.png);
   background-color: #e7332b;
   color: white;
 }
@@ -569,31 +569,31 @@ body {
 .whyzuri__box .sop__box-item-2,
 .whyzuri .sop-item-2,
 .whyzuri .sop .sop__box-item-2 {
-  background-image: url(/img/curve.svg);
+  background-image: url(./img/curve.svg);
 }
 .whyzuri__box-item-3,
 .whyzuri__box .sop__box-item-3,
 .whyzuri .sop-item-3,
 .whyzuri .sop .sop__box-item-3 {
-  background-image: url(/img/curve3.svg);
+  background-image: url(./img/curve3.svg);
 }
 .whyzuri__box-item-4,
 .whyzuri__box .sop__box-item-4,
 .whyzuri .sop-item-4,
 .whyzuri .sop .sop__box-item-4 {
-  background-image: url(/img/curve4.svg);
+  background-image: url(./img/curve4.svg);
 }
 .whyzuri__box-item-5,
 .whyzuri__box .sop__box-item-5,
 .whyzuri .sop-item-5,
 .whyzuri .sop .sop__box-item-5 {
-  background-image: url(/img/curve5.svg);
+  background-image: url(./img/curve5.svg);
 }
 .whyzuri__box-item-6,
 .whyzuri__box .sop__box-item-6,
 .whyzuri .sop-item-6,
 .whyzuri .sop .sop__box-item-6 {
-  background-image: url(/img/curve6.svg);
+  background-image: url(./img/curve6.svg);
 }
 .whyzuri__box-item,
 .whyzuri .sop-item {
