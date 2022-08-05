@@ -1,0 +1,30 @@
+.third {
+  grid-column: full-start/full-end;
+  background-image: url(/img/right_yz6hn3.png);
+  background-size: contain;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 3rem;
+  padding: 8rem;
+
+  &__box {
+    background-color: $color-primary-2;
+    padding: 8rem 3rem;
+
+    display: grid;
+    grid-gap: 3rem;
+
+    p,
+    a {
+      padding: 0;
+    }
+
+    a,
+    a:active,
+    a:visited {
+      font-size: 1.6rem;
+      text-decoration: none;
+    }
+  }
+}

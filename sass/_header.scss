@@ -1,0 +1,70 @@
+.header {
+  grid-column: full-start/full-end;
+  padding: 8rem 0rem 30rem 0rem;
+
+  background-color: $color-primary-2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  & > * {
+    margin-bottom: 5rem;
+  }
+
+  &__h1 {
+    font-size: 3rem;
+  }
+
+  &__p {
+    font-size: 1.6rem;
+    font-family: $font-light;
+    padding: 0 32rem;
+
+    a,
+    a:active,
+    a:visited {
+      color: $color-primary;
+      text-decoration: none;
+    }
+  }
+
+  &__p-big {
+    font-size: 2.4rem;
+    padding: 0 35rem;
+  }
+
+  &__button {
+    display: flex;
+
+    & > *:not(:last-child) {
+      margin-right: 2rem;
+    }
+    &-link,
+    &-link:active,
+    &-link:visited {
+      text-decoration: none;
+      padding: 1rem 3.8rem;
+      color: white;
+      font-size: 1.6rem;
+      background-color: $color-primary;
+    }
+  }
+}
+.transparent {
+  background-color: white !important;
+  border: 1px solid $color-primary;
+  color: $color-primary !important;
+}
+
+.margin-b {
+  margin-bottom: 8rem;
+}
+
+.margin-b2 {
+  margin-bottom: 3rem;
+}
+
+.red {
+  color: $color-primary;
+}
