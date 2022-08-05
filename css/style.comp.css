@@ -79,9 +79,7 @@ body {
     @media only screen and (max-width: 400px) {
       .header__p {
         padding: 2rem; } }
-    .header__p a,
-    .header__p a:active,
-    .header__p a:visited {
+    .header__p-a, .header__p-a:active, .header__p-a:visited {
       color: #e7332b;
       text-decoration: none; }
   .header__p-big {

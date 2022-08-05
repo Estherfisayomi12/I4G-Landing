@@ -50,9 +50,9 @@
       padding: 2rem;
     }
 
-    a,
-    a:active,
-    a:visited {
+    &-a,
+    &-a:active,
+    &-a:visited {
       color: $color-primary;
       text-decoration: none;
     }
