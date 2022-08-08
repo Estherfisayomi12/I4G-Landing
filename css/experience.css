@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Graphik";
-  src: url(./img/GraphikSemibold.otf);
+  src: url(./../img/GraphikSemibold.otf);
 }
 @font-face {
   font-family: "Graphik medium";
-  src: url(./img/GraphikRegular.otf);
+  src: url(./../img/GraphikRegular.otf);
 }
 *,
 *::before,
@@ -232,7 +232,7 @@ body {
 .home {
   grid-column: full-start / full-end;
   padding: 10rem;
-  background-image: url(./img/bg.png);
+  background-image: url(./../img/bg.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -307,7 +307,7 @@ body {
 .hiretalents {
   grid-column: full-start / full-end;
   background-color: #fff8e5;
-  background-image: url(./img/rope.svg);
+  background-image: url(./../img/rope.svg);
   background-repeat: no-repeat;
   background-position: 0% 60%;
   text-align: center;
@@ -395,7 +395,7 @@ body {
 .whyus {
   grid-column: full-start / full-end;
   display: flex;
-  background-image: url(./img/line1.svg);
+  background-image: url(./../img/line1.svg);
   background-repeat: no-repeat;
   background-position: right center;
   padding: 6rem 10rem;

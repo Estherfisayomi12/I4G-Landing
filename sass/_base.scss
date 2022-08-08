@@ -15,12 +15,12 @@ $font-light: "Graphik medium", "Times New Roman";
 
 @font-face {
   font-family: "Graphik";
-  src: url(/img/GraphikSemibold.otf);
+  src: url(./../img/GraphikSemibold.otf);
 }
 
 @font-face {
   font-family: "Graphik medium";
-  src: url(/img/GraphikRegular.otf);
+  src: url(./../img/GraphikRegular.otf);
 }
 //RESPONSIVE BREAKPOINTS
 $bp-largest: 75em; //1200px
