@@ -678,7 +678,7 @@ body {
   }
 }
 .third img {
-  mix-blend-mode: darken !important;
+  mix-blend-mode: darken;
   width: 25rem;
   justify-self: center;
 }
